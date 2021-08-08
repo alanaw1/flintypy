@@ -1,0 +1,49 @@
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /Users/alanaw/anaconda3/envs/flinty
+
+  added / updated specs:
+    - numpy
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    libblas-3.9.0              |      10_openblas          11 KB  conda-forge
+    libcblas-3.9.0             |      10_openblas          11 KB  conda-forge
+    libgfortran-5.0.0          |9_3_0_h6c81a4c_23          19 KB  conda-forge
+    libgfortran5-9.3.0         |      h6c81a4c_23         1.7 MB  conda-forge
+    liblapack-3.9.0            |      10_openblas          11 KB  conda-forge
+    libopenblas-0.3.17         |openmp_h3351f45_1         8.7 MB  conda-forge
+    llvm-openmp-12.0.1         |       hda6cdc1_1         287 KB  conda-forge
+    numpy-1.21.1               |   py37h84c02c4_0         5.8 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        16.6 MB
+
+The following NEW packages will be INSTALLED:
+
+  libblas            conda-forge/osx-64::libblas-3.9.0-10_openblas
+  libcblas           conda-forge/osx-64::libcblas-3.9.0-10_openblas
+  libgfortran        conda-forge/osx-64::libgfortran-5.0.0-9_3_0_h6c81a4c_23
+  libgfortran5       conda-forge/osx-64::libgfortran5-9.3.0-h6c81a4c_23
+  liblapack          conda-forge/osx-64::liblapack-3.9.0-10_openblas
+  libopenblas        conda-forge/osx-64::libopenblas-0.3.17-openmp_h3351f45_1
+  llvm-openmp        conda-forge/osx-64::llvm-openmp-12.0.1-hda6cdc1_1
+  numpy              conda-forge/osx-64::numpy-1.21.1-py37h84c02c4_0
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+libopenblas-0.3.17   | 8.7 MB    |            |   0% libopenblas-0.3.17   | 8.7 MB    |            |   0% libopenblas-0.3.17   | 8.7 MB    | #          |  11% libopenblas-0.3.17   | 8.7 MB    | #8         |  19% libopenblas-0.3.17   | 8.7 MB    | ####2      |  42% libopenblas-0.3.17   | 8.7 MB    | #######7   |  78% libopenblas-0.3.17   | 8.7 MB    | ########## | 100% 
+numpy-1.21.1         | 5.8 MB    |            |   0% numpy-1.21.1         | 5.8 MB    | #7         |  18% numpy-1.21.1         | 5.8 MB    | #######7   |  78% numpy-1.21.1         | 5.8 MB    | ########## | 100% numpy-1.21.1         | 5.8 MB    | ########## | 100% 
+libgfortran-5.0.0    | 19 KB     |            |   0% libgfortran-5.0.0    | 19 KB     | ########## | 100% libgfortran-5.0.0    | 19 KB     | ########## | 100% 
+llvm-openmp-12.0.1   | 287 KB    |            |   0% llvm-openmp-12.0.1   | 287 KB    | ########## | 100% llvm-openmp-12.0.1   | 287 KB    | ########## | 100% 
+libgfortran5-9.3.0   | 1.7 MB    |            |   0% libgfortran5-9.3.0   | 1.7 MB    | ########2  |  82% libgfortran5-9.3.0   | 1.7 MB    | ########## | 100% 
+libcblas-3.9.0       | 11 KB     |            |   0% libcblas-3.9.0       | 11 KB     | ########## | 100% 
+libblas-3.9.0        | 11 KB     |            |   0% libblas-3.9.0        | 11 KB     | ########## | 100% 
+liblapack-3.9.0      | 11 KB     |            |   0% liblapack-3.9.0      | 11 KB     | ########## | 100% 

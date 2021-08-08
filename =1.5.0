@@ -1,0 +1,5 @@
+Collecting scipy
+  Using cached scipy-1.7.1-cp37-cp37m-macosx_10_9_x86_64.whl (32.6 MB)
+Requirement already satisfied: numpy<1.23.0,>=1.16.5 in /Users/alanaw/anaconda3/envs/flinty/lib/python3.7/site-packages (from scipy) (1.16.5)
+Installing collected packages: scipy
+Successfully installed scipy-1.7.1

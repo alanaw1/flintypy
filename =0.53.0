@@ -1,0 +1,8 @@
+Collecting numba
+  Using cached numba-0.53.1-cp37-cp37m-macosx_10_13_x86_64.whl
+Collecting llvmlite<0.37,>=0.36.0rc1
+  Using cached llvmlite-0.36.0-cp37-cp37m-macosx_10_9_x86_64.whl (18.5 MB)
+Requirement already satisfied: setuptools in /Users/alanaw/anaconda3/envs/flinty/lib/python3.7/site-packages (from numba) (49.6.0.post20210108)
+Requirement already satisfied: numpy>=1.15 in /Users/alanaw/anaconda3/envs/flinty/lib/python3.7/site-packages (from numba) (1.16.5)
+Installing collected packages: llvmlite, numba
+Successfully installed llvmlite-0.36.0 numba-0.53.1
