@@ -11,7 +11,7 @@ This is the homepage of **flintyPy**, the Python version of the software **flint
 What does this package offer?
 -----------------------------
 
-**flinty** provides exact tests of exchangeability in multivariate datasets. 
+**flintyPy** provides exact tests of exchangeability in multivariate datasets. 
 
 - It is *non-parametric* (i.e., makes no distributional assumptions of the features), which makes it suitable for settings where the user might prefer not to make distributional assumptions about their data.
 - It is *flexible*, meaning that the practitioner can specify feature dependencies based on their knowledge of the problem. Our tests handle dependent features, should the dependencies satisfy partitionability. See tutorial for details.
@@ -21,7 +21,7 @@ What does this package offer?
 How to install?
 ---------------
 
-**flintypy** requires Python >= 3.7.10, and for now we recommend the following installation procedure that uses both ``conda`` and ``pip``. 
+**flintyPy** requires Python >= 3.7.10, and for now we recommend the following installation procedure that uses both ``conda`` and ``pip``. 
 
 1. Download `anaconda <https://www.anaconda.com/download/>`_ or `miniconda <https://conda.io/miniconda.html>`_. 
 2. Create a separate conda environment and install some required packages.
@@ -34,7 +34,7 @@ How to install?
     conda install numba==0.53.1
     conda install scipy==1.7.1
 
-3. Install **flinty** (v0.1.17, on Test PyPI) using pip. 
+3. Install **flintyPy** (v0.1.17, on Test PyPI) using pip. 
 
 .. code-block:: console
 
