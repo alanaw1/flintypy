@@ -11,10 +11,10 @@ This is the homepage of **flintyPy**, the Python version of the software **flint
 What does this package offer?
 -----------------------------
 
-**flintyPy** provides exact tests of exchangeability in multivariate datasets. 
+**flintyPy** provides exact tests of exchangeability in multivariate datasets.
 
 - It is *non-parametric* (i.e., makes no distributional assumptions of the features), which makes it suitable for settings where the user might prefer not to make distributional assumptions about their data.
-- It is *flexible*, meaning that the practitioner can specify feature dependencies based on their knowledge of the problem. Our tests handle dependent features, should the dependencies satisfy partitionability. See tutorial for details.
+- It is *flexible*, meaning that the practitioner can specify feature dependencies based on their knowledge of the problem, or can simply provide summary statistics in the form of pairwise distance data. See Examples for details.
 - It is *scalable*, so the user does not have to worry about the sample size :math:`N` or the number of features :math:`P` of the data.
 - It is *robust*, meaning that it controls for false positive rate (FPR) and remains powerful in realistic settings including uneven representation of subpopulations, sparsity of discriminative features, and small sample sizes.
 
