@@ -1,7 +1,7 @@
 Examples
 ========
 
-Here are some examples of how **flinty** can be run on data. We are still developing our Python documentation, so please take a look at `these articles <https://alanaw1.github.io/flintyR/articles>`_ from our companion flintyR package if you are looking for more real-life examples. There, you will find many pedagogical examples accompanied with thorough explorations. 
+Here are some examples of how **flintyPy** can be run on data. We are working on expanding our Python documentation, so please take a look at `these articles <https://alanaw1.github.io/flintyR/articles>`_ from our companion flintyR package if you are looking for more real-life examples. There, you will find many pedagogical examples accompanied by thorough explorations. 
 
 A Simulated Binary Matrix
 -------------------------

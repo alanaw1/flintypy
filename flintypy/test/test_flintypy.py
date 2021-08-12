@@ -1,24 +1,22 @@
-import sys
-sys.path.append('../')
-
-from v_stat import _hamming_distances
-from v_stat import _calculate_bin_v_stat
-from v_stat import _calculate_real_v_stat
-from v_stat import _numba_permute
-from v_stat import _build_forward
-from v_stat import _build_reverse
-from v_stat import _numba_permute_dists
-from v_stat import _naive_block_permute
-from v_stat import _cache_block_permute
-from v_stat import _convolution_of_chi2
-from v_stat import _ind_cov
-from v_stat import _chi2_weights
-from v_stat import _ind_large_p
-from v_stat import _block_permute
-from v_stat import _block_cov
-from v_stat import _block_large_p
-from v_stat import _ind_large_p_large_n
-from v_stat import _block_large_p_large_n
+# Unit tests
+from flintypy.v_stat import _hamming_distances
+from flintypy.v_stat import _calculate_bin_v_stat
+from flintypy.v_stat import _calculate_real_v_stat
+from flintypy.v_stat import _numba_permute
+from flintypy.v_stat import _build_forward
+from flintypy.v_stat import _build_reverse
+from flintypy.v_stat import _numba_permute_dists
+from flintypy.v_stat import _naive_block_permute
+from flintypy.v_stat import _cache_block_permute
+from flintypy.v_stat import _convolution_of_chi2
+from flintypy.v_stat import _ind_cov
+from flintypy.v_stat import _chi2_weights
+from flintypy.v_stat import _ind_large_p
+from flintypy.v_stat import _block_permute
+from flintypy.v_stat import _block_cov
+from flintypy.v_stat import _block_large_p
+from flintypy.v_stat import _ind_large_p_large_n
+from flintypy.v_stat import _block_large_p_large_n
 import numpy as np
 from scipy.stats import chi2
 from scipy.spatial.distance import pdist

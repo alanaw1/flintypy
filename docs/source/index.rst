@@ -21,24 +21,65 @@ What does this package offer?
 How to install?
 ---------------
 
-**flintyPy** requires Python >= 3.7.10, and for now we recommend the following installation procedure that uses both ``conda`` and ``pip``. 
+**flintyPy** requires Python >= 3.7.10, and for now we recommend the following installation procedures for native Python and for Anaconda users. 
+
+Using both ``conda`` and ``pip`` (Recommended)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Download `anaconda <https://www.anaconda.com/download/>`_ or `miniconda <https://conda.io/miniconda.html>`_. 
-2. Create a separate conda environment and install some required packages.
+2. Create a separate conda environment and activate it.
 
 .. code-block:: console
 
     conda create -n flinty python==3.7.10
     conda activate flinty
+
+3. *(Optional)* Install dependencies / required packages.
+
+.. code-block:: console
+    
     conda install numpy==1.21.1
     conda install numba==0.53.1
     conda install scipy==1.7.1
 
-3. Install **flintyPy** (v0.1.17, on Test PyPI) using pip. 
+4. Install **flintyPy** (v0.1.18, on Test PyPI) using pip.
 
 .. code-block:: console
 
-    pip install -i https://test.pypi.org/simple/ flintypy==0.1.17
+    pip install --extra-index-url https://pypi.org/simple -i https://test.pypi.org/simple/ flintypy==0.1.18
+
+Run Steps 1,2 and 4. If Step 4 fails, go back to Step 3 and proceed with Step 4.
+
+Using only ``pip`` (Native Python Users with Homebrew)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+1. Install `virtualenv <https://virtualenv.pypa.io/en/latest/>`_ if you don't already use it.
+
+.. code-block:: console
+    
+    brew install virtualenv
+
+2. Create a new virtual environment under the working directory. 
+
+.. code-block:: console
+    
+    python3 -m virtualenv --python [PATH-TO-PYTHON>=3.7.10] [ENVIRONMENT-NAME]
+    # Example: python3 -m virtualenv --python /usr/local/bin/python3.9 flinty
+
+3. Activate the virtual environment
+
+.. code-block:: console
+    
+    source flinty/bin/activate
+
+4. Install **flintyPy** (v0.1.18, on Test PyPI) using pip.
+
+.. code-block:: console
+
+    pip install --extra-index-url https://pypi.org/simple -i https://test.pypi.org/simple/ flintypy==0.1.18
+
+Note that if Step 4 fails, a practical workaround solution is to ``pip install`` **numpy** (==1.21.1), **numba** (==0.53.1) and **scipy** (==1.7.1) right after Step 3. 
 
 For guidance on running our exchangeability test, please click on the "Examples" tab.
 
