@@ -41,6 +41,7 @@ Using both ``conda`` and ``pip`` (Recommended)
     conda install numpy==1.21.1
     conda install numba==0.53.1
     conda install scipy==1.7.1
+    conda install gmpy2=2.0.8
 
 4. Install **flintyPy** (v0.1.18, on Test PyPI) using pip.
 
@@ -48,7 +49,7 @@ Using both ``conda`` and ``pip`` (Recommended)
 
     pip install --extra-index-url https://pypi.org/simple -i https://test.pypi.org/simple/ flintypy==0.1.18
 
-Run Steps 1,2 and 4. If Step 4 fails, go back to Step 3 and proceed with Step 4.
+Run Steps 1,2 and 4. If Step 4 fails, go back to Step 3 and proceed with Step 4. 
 
 Using only ``pip`` (Native Python Users with Homebrew)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -79,7 +80,7 @@ Using only ``pip`` (Native Python Users with Homebrew)
 
     pip install --extra-index-url https://pypi.org/simple -i https://test.pypi.org/simple/ flintypy==0.1.18
 
-Note that if Step 4 fails, a practical workaround solution is to ``pip install`` **numpy** (==1.21.1), **numba** (==0.53.1) and **scipy** (==1.7.1) right after Step 3. 
+Note that if Step 4 fails, a practical workaround solution is to ``pip install`` **numpy** (==1.21.1), **numba** (==0.53.1), **scipy** (==1.7.1) and **gmpy2** (=2.0.8) right after Step 3. 
 
 For guidance on running our exchangeability test, please click on the "Examples" tab.
 
